@@ -1,0 +1,136 @@
+/* #2 #colorful #palette is:
+          * Background: #F5F5F5 (GREY 100)
+          * Primary Text: black
+
+          * Primary color: #3F51B5 (INDIGO)
+          * Primary color_text : white
+          * Accent color: #CDDC39 (LIME)
+          * Accent color_text: black
+          */
+
+
+/* global styles */
+* {
+    /* #2 #font #faces */
+    font-family: Roboto, 'Arial', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    /* #2 #colorful #background */
+    background-color: #F5F5F5;
+}
+
+button {
+    /* #2 #colourful #plusfive */
+    background-color: #CDDC39;
+    color: black;
+}
+
+button, h3 strong {
+    /* #2 #font capital #letters */
+    text-transform: uppercase;
+}
+
+
+/* app bar styles */
+.app-bar {
+    /* #2 #colourful #app-bar */
+    background-color: #3F51B5;
+    color: white;
+}
+
+
+/* channels list styles */
+ul {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+    /* remove the bullet points */
+    list-style-type: none;
+}
+
+li {
+    /* define the list sizes */
+    padding: 16px;
+    font-size: 16px;
+    border-bottom: 1px solid #F5F5F5;
+    height: 32px;
+}
+
+li img {
+    /* centre the images against the text in the list */
+    vertical-align: middle;
+}
+
+ul .selected {
+    /* highlight the selected channel */
+    border-left: 4px solid #3F51B5;
+    color: #3F51B5;
+}
+
+/* tab bar styles */
+#tab-bar {
+    /* colour for the tab bar */
+    background-color: white;
+}
+
+#tab-bar button {
+    /* center the text inside the buttons */
+    font-size: 13px;
+    text-align: center;
+    background-color: white;
+    width: 33%;
+    height: 72px;
+    padding: 16px;
+    border: 0;
+}
+
+#tab-bar .selected {
+    /* highlight the selected button */
+    border-bottom: 4px solid #3F51B5;
+    color: #3F51B5;
+}
+
+#tab-bar button img {
+    /* make the image act as a container, center it and raise it from the text */
+    display: block;
+    margin: auto;
+    padding-bottom: 4px;
+}
+
+
+/* message styles */
+.message {
+    /* change the size and margin */
+    margin-bottom: 8px;
+    width: 80%;
+    margin-left: 2.5%;
+}
+
+.message-body {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+    padding: 16px;
+}
+
+.message h3 {
+    /* #2 #font #metadata is now medium */
+    font-size: medium;
+}
+
+.message em {
+    /* #2 #font #remaining overrides the default italic appearance of em elements*/
+    font-size: larger;
+    font-style: normal;
+}
+
+.message a {
+    /* coloring the links black */
+    color: black;
+}
+
+#own {
+    /* our own message should be aligned further right */
+    margin-left: 17.5%;
+}
